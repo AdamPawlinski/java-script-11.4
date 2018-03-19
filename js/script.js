@@ -16,11 +16,11 @@ Phone.prototype.buy = function() {
   }
 }
 var iPhone6S = new Phone("Apple", 2250, "white", 5.5);
-var SamsungGalaxyS6 = new Phone("Samsung", 1870, "graphite", 5);
-var OnePlusOne = new Phone("OnePlus", 1500, "black", 4.5);
+var samsungGalaxyS6 = new Phone("Samsung", 1870, "graphite", 5);
+var onePlusOne = new Phone("OnePlus", 1500, "black", 4.5);
 iPhone6S.printInfo();
-SamsungGalaxyS6.printInfo();
-OnePlusOne.printInfo();
+samsungGalaxyS6.printInfo();
+onePlusOne.printInfo();
 iPhone6S.buy();
-SamsungGalaxyS6.buy();
-OnePlusOne.buy();
+samsungGalaxyS6.buy();
+onePlusOne.buy();
